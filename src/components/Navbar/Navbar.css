@@ -1,0 +1,16 @@
+.navbar {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li:not(:last-child) {
+  margin-right: 20px;
+}
+.navbar .navbar-font i {
+  margin-right: 20px;
+}
